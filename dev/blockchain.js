@@ -4,6 +4,8 @@ class Blockchain {
   constructor () {
     this.chain = []
     this.pendingTransactions = []
+
+    this.createNewBLock(100, '0', '0')
   }
 
   createNewBLock (nonce, previousBlockHash, hash) {
