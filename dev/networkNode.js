@@ -88,6 +88,10 @@ app.get('/mine', (req, res) => {
     })
 })
 
+app.post('/receive-new-block', (req, res) => {
+
+})
+
 // 1. register a node and broadcast it the network
 app.post('/register-and-broadcast-node', (req, res) => {
   const newNodeUrl = req.body.newNodeUrl
